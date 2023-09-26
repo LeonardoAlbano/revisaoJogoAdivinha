@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="./style.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>Jogo da Adivinhação</title>
+</head>
+<body>
+    <div id="page">
+        <header>
+            <div class="screenOne ">
+                <h1>Jogo da Adivinhação</h1>
+
+                <span> Adivinhe o número entre 0 e 10</span>
+    
+                <form action="">
+                    <input  type="text" id="inputNumber">
+
+                    <button id="btnTry">Tentar</button>
+
+                </form>
+
+            </div>
+
+            <!-- tela de acertos -->
+            <div class="screenTwo hidden">
+                <h2>Acertou em tentativas!</h2>
+    
+                <form action="">
+
+                    <button id="btnReset">Jogar novamente</button>
+
+                </form>
+
+            </div>
+
+        </header>
+    </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
